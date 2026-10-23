@@ -1,0 +1,37 @@
+{
+  "model": "LinearRegression",
+  "dataset_rows_after_dedup": 1337,
+  "train_size": 1069,
+  "test_size": 268,
+  "r2_test": 0.8069,
+  "r2_train": 0.7299,
+  "mae_usd": 4177.05,
+  "rmse_usd": 5956.34,
+  "intercept": -11092.65,
+  "feature_columns": [
+    "age",
+    "bmi",
+    "children",
+    "sex_male",
+    "smoker_yes",
+    "region_northwest",
+    "region_southeast",
+    "region_southwest"
+  ],
+  "allowed_values": {
+    "sex": [
+      "female",
+      "male"
+    ],
+    "smoker": [
+      "no",
+      "yes"
+    ],
+    "region": [
+      "northeast",
+      "northwest",
+      "southeast",
+      "southwest"
+    ]
+  }
+}
